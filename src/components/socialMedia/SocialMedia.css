@@ -53,6 +53,18 @@
   background-color: #c13584;
 }
 
+.devmesh i {
+  background-color: #4677e0;
+}
+
+.youtube i {
+  background-color: #e92929;
+}
+
+.spotify i {
+  background-color: #44b858;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -60,6 +72,9 @@
 .github i:hover,
 .linkedin i:hover,
 .facebook i:hover,
+.devmesh i:hover,
+.youtube i:hover,
+.spotify i:hover,
 .instagram i:hover {
   background-color: black;
   transition: 0.3s ease-in;
