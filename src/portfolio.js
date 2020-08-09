@@ -1,5 +1,4 @@
-﻿
-/* Change this file to get your personal Portfolio */
+﻿/* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
 
@@ -7,92 +6,120 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Arkaprova Deb",
+  title: "Hello World, I'm Arkaprova",
+  subTitle: emoji(
+    "A Data Scientist 🚀 having professional experience in the field of Machine Learning and Internet of Things"
+  ),
+  resumeLink:
+    "https://drive.google.com/file/d/1s7TYvQ08TyntdtZ1GN1mnJdDUwuVnjzy/view?usp=sharing",
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/arkaprovaz",
+  linkedin: "https://www.linkedin.com/in/arkaprovaz/",
+  gmail: "arkaprova.deb97@gmail.com",
+  facebook: "https://www.facebook.com/arkaprovaz",
+  instagram: "https://www.instagram.com/arkaprovaz",
+  twitter: "https://www.twitter.com/arkaprovaz",
+  youtube: "https://youtube.com/arkaprovadeb",
+  spotify:
+    "https://open.spotify.com/user/22kyutzxt3xrecqf675ad4qja?si=fnasvdwrthionwkkbdcwvw",
+  devmesh: "https://devmesh.intel.com/users/arkaprova-deb",
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "CRAZY DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji(
+      "⚡ Develop and deploy end-to-end Statistical & Machine Learning model to find valuable insights from data."
+    ),
+    emoji(
+      "⚡ Play around with a large number of structured and unstructured data on a daily basis"
+    ),
+    emoji(
+      "⚡ Create and deploy REST APIs for various use cases using 3rd party services such as Microsoft Azure"
+    ),
+    emoji(
+      "⚡ Tinkering around various Embedded Systems & Single Board Computers such as Raspberry Pi, Intel UP², NodeMCU"
+    ),
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
+  /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Data Science",
+      fontAwesomeClassname: "fas fa-chart-bar",
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Embedded systems",
+      fontAwesomeClassname: "fas fa-microchip",
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-laptop-code",
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "IoT",
+      fontAwesomeClassname: "fas fa-wifi",
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Azure",
+      fontAwesomeClassname: "fas fa-cloud",
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python",
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "fab fa-cuttlefish",
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java",
     },
     {
       skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fab fa-swift",
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project",
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      fontAwesomeClassname: "fas fa-database",
     },
     {
       skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ]
+      fontAwesomeClassname: "fab fa-docker",
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux",
+    },
+    {
+      skillName: "Computer Vision",
+      fontAwesomeClassname: "fas fa-camera-retro",
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git",
+    },
+    {
+      skillName: "Raspberry Pi",
+      fontAwesomeClassname: "fab fa-raspberry-pi",
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -101,20 +128,27 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "Rapid Prototyping", //Insert stack or technology you have experience in
+      progressPercentage: "90%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Machine Learning",
+      progressPercentage: "80%",
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ]
+      Stack: "Internet of Things",
+      progressPercentage: "80%",
+    },
+    {
+      Stack: "Computer Vision",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "Data Analytics",
+      progressPercentage: "80%",
+    },
+  ],
 };
-
 
 // Your top 3 work experiences
 
@@ -122,31 +156,53 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Associate Data Scientist",
+      company: "P360",
+      companylogo: require("./assets/images/p360.png"),
+      date: "April 2020 – Present",
+      desc:
+        "As an Associate Data Scientist, my job is to create and deploy end-to-end Machine Learning models for finding key insights from Data specific to Pharmaceutical Industry& Pharma Sales Ops.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Responsible for algorithms design and modeling that typically includes Regression, Classification, Propensity Scoring, Recommendation models, Statistical Modelling.",
+        "Optimizing CPU intensive scripts for deployment.",
+        "Manipulation of Big Data in SQL Databases.",
+      ],
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior Data Scientist",
+      company: "P360",
+      companylogo: require("./assets/images/p360.png"),
+      date: "July 2019 – April 2020",
+      desc:
+        "As a Junior Data Scientist I have created Machine Learning Models, Predictive Analytics, Data Visualization.",
+      descBullets: [
+        "Work on Python, R, SQL, and for the libraries and frameworks, it's Sci-kit Learn, TensorFlow, Microsoft Cognitive Services.",
+        "Rapid Prototyping using Microsoft Azure Machine Learning, Microsoft Cognitive Service",
+      ],
     },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Intel Software Innovator",
+      company: "Intel",
+      companylogo: require("./assets/images/intel.png"),
+      date: "April 2019 – Present",
+      desc:
+        "The Intel® Software Innovator program supports innovative, independent developers who display an ability to create and demonstrate forward-looking projects by providing them with speaking and demonstration opportunities at industry events and developer gatherings.",
+      descBullets: [
+        "Internet of Things",
+        "Artificial Intelligence",
+        "Robotics",
+        "OneAPI",
+      ],
     },
-  ]
+    {
+      role: "Co-organizer",
+      company: "Google Developer Group Siliguri",
+      companylogo: require("./assets/images/gdg.png"),
+      date: "April 2019 – Present",
+      desc:
+        "Organizers of Google Developer Groups are passionate leaders in their community who are dedicated to helping others learn and connect. GDG Organizers plan and host meetup events on a wide range of technical topics typically on a monthly basis in a location near them. These community organizers come with various backgrounds, from all types of companies and industries.",
+    },
+  ],
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
@@ -154,10 +210,9 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  githubUserName: "arkaprovaz", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to false
 };
-
 
 // Some Big Projects You have worked with your company
 
@@ -166,88 +221,130 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/blackspektro.png"),
+      link: "http://blackspektro.com/",
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
-  ]
+  ],
 };
 
 // Your Achievement Section Include Your Certification Talks and More
 
 const achievementSection = {
-
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Achievements & Certifications 🏆 "),
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "Smart India Hackathon 2020 Winner",
+      subtitle:
+        "Winner of Smart India Hackathon 2020 organised by Ministry of Human Resource Development, India, under problem statement number LN379/PK367",
+      image: require("./assets/images/sih2020.jpg"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-      ]
+        {
+          name: "View result",
+          url: "https://evaluations.sih.gov.in/live/21",
+        },
+      ],
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Intel® Distribution of OpenVINO™ toolkit",
+      subtitle:
+        "Completed Certification on Introduction to Intel® Distribution of OpenVINO™ toolkit for Computer Vision Applications",
+      image: require("./assets/images/openvino.png"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
-  ]
+        {
+          name: "See credential on Coursera",
+          url: "https://www.coursera.org/api/certificate.v1/pdf/5XBLMD7B8KVY",
+        },
+      ],
+    },
+    {
+      title: "2019 Top Innovator Award",
+      subtitle: "Recognised as 2019 Top Innovator by Intel",
+      image: require("./assets/images/isi.png"),
+      footerLink: [
+        {
+          name: "View on Linkedin",
+          url:
+            "https://www.linkedin.com/feed/update/urn:li:activity:6639522287223705600/",
+        },
+      ],
+    },
+    {
+      title: "Intel Early Innovation for PC Skills",
+      subtitle: "Developed Alexa Skill for Intel powered PC running Windows",
+      image: require("./assets/images/isi.png"),
+      footerLink: [
+        {
+          name: "View on Intel Devmesh",
+          url:
+            "https://devmesh.intel.com/projects/social-media-handling-with-alexa-voice-commands",
+        },
+      ],
+    },
+    {
+      title: "Internet of Things",
+      subtitle:
+        "Completed Certifcation from IIT Guwahati for Internet of Things",
+      image: require("./assets/images/techniche.png"),
+      footerLink: [],
+    },
+  ],
 };
 
 // Blogs Section
 
 const blogSection = {
-
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: "Some of my Publications",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://www.chitkara.edu.in/cse-can/india-gallery.php",
+      title:
+        "Identification of Pathological Disease in Plants using Deep Neural Networks - Powered by Intel® Distribution of OpenVINO™ Toolkit",
+      description:
+        "Feb 14, 2020 | Institute of Electrical and Electronics Engineers, IEEE",
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ]
+      url: "https://www.chitkara.edu.in/cse-can/india-gallery.php",
+      title: "Drug Discovery and Drug Identification using AI",
+      description:
+        "Feb 14, 2020 | Institute of Electrical and Electronics Engineers, IEEE",
+    },
+    {
+      url: "https://link.springer.com/chapter/10.1007/978-3-030-42363-6_23",
+      title:
+        "Smart Electric Mobility: Exploring Possibilities Towards a Better India",
+      description: "Mar 3, 2020 | Springer",
+    },
+    {
+      url: "https://link.springer.com/chapter/10.1007/978-3-030-42363-6_79",
+      title:
+        "Smart Waste Management: A Revolutionary Step Towards a Better India",
+      description: "Mar 3, 2020 | Springer",
+    },
+  ],
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  title: "Talks",
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ]
+      title: "Computer Vision using OpenCV",
+      subtitle: "Developer Weekend 2019, Reva University, BLR",
+      slides_url: "/",
+      event_url: "https://www.developerweekend.org/",
+    },
+  ],
 };
 
 // Podcast Section
@@ -257,21 +354,36 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: [
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
+  ],
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+91-8944992236",
+  email_address: "arkaprova.deb97@gmail.com",
 };
 
 //Twitter Section
 
 const twitterDetails = {
-
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-  
+  userName: "arkaprovaz", //Replace "twitter" with your twitter username without @
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export {
+  greeting,
+  socialMediaLinks,
+  skillsSection,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
+  contactInfo,
+  twitterDetails,
+};
