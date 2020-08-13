@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b9e0c916462b768c3389c599b08ac3c7",
+    "revision": "8bd9f1ba8df7d43e91aa3469848b2c23",
     "url": "/index.html"
   },
   {
-    "revision": "22e51bda4b42047bc66e",
+    "revision": "3f2674d3881bfd449417",
     "url": "/static/css/3.b499fcd2.chunk.css"
   },
   {
-    "revision": "a7492a0ea2da25fa7450",
+    "revision": "5dc835fa0cd8c99bc6df",
     "url": "/static/css/4.01c87591.chunk.css"
   },
   {
-    "revision": "a41ee8b77c4057a7db2a",
+    "revision": "ac417c19f17a568a953d",
     "url": "/static/css/main.7513e02b.chunk.css"
   },
   {
-    "revision": "6dc687c3ea77dc8798b6",
-    "url": "/static/js/2.8ee12683.chunk.js"
+    "revision": "978aa0b22eb84d04f1dc",
+    "url": "/static/js/2.5fb8d77b.chunk.js"
   },
   {
     "revision": "71772b085033e92f89cdfb3071333458",
-    "url": "/static/js/2.8ee12683.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.5fb8d77b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22e51bda4b42047bc66e",
-    "url": "/static/js/3.ad017f8c.chunk.js"
+    "revision": "3f2674d3881bfd449417",
+    "url": "/static/js/3.146b3a23.chunk.js"
   },
   {
-    "revision": "a7492a0ea2da25fa7450",
-    "url": "/static/js/4.24f763f5.chunk.js"
+    "revision": "5dc835fa0cd8c99bc6df",
+    "url": "/static/js/4.705d5b6e.chunk.js"
   },
   {
-    "revision": "a41ee8b77c4057a7db2a",
-    "url": "/static/js/main.0596deb0.chunk.js"
+    "revision": "ac417c19f17a568a953d",
+    "url": "/static/js/main.2c0b500e.chunk.js"
   },
   {
-    "revision": "01d60906adaa4807bda0",
-    "url": "/static/js/runtime-main.5d571b81.js"
+    "revision": "f3521c1676137ee2b3ab",
+    "url": "/static/js/runtime-main.8e54d966.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/static/media/manOnTable.52be3144.svg"
+  },
+  {
+    "revision": "3421b610c49f3282e93c02dcf5f45344",
+    "url": "/static/media/oneapi.3421b610.png"
   },
   {
     "revision": "43218ba153c2eca5c07ad312ce39f875",
