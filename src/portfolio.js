@@ -248,6 +248,18 @@ const achievementSection = {
       ],
     },
     {
+      title: "Intel® OneAPI Innovator",
+      subtitle: "Recognised as an official Intel® OneAPI innovator",
+      image: require("./assets/images/oneapi.png"),
+      footerLink: [
+        {
+          name: "See on Linkedin",
+          url:
+            "https://www.linkedin.com/posts/arkaprovaz_oneapi-intelsoftwareinnovator-intelai-activity-6691423333470269440-Zzvk",
+        },
+      ],
+    },
+    {
       title: "Intel® Distribution of OpenVINO™ toolkit",
       subtitle:
         "Completed Certification on Introduction to Intel® Distribution of OpenVINO™ toolkit for Computer Vision Applications",
