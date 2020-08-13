@@ -196,7 +196,7 @@ const workExperiences = {
     },
     {
       role: "Co-organizer",
-      company: "Google Developer Group Siliguri",
+      company: "GDG Siliguri",
       companylogo: require("./assets/images/gdg.png"),
       date: "April 2019 – Present",
       desc:
